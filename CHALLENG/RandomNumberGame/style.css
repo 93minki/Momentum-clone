@@ -1,0 +1,19 @@
+body {
+  margin-left: 30px;
+}
+
+h2 {
+  display: inline;
+}
+
+#guess-form {
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+#result-display {
+  font-weight: 600;
+}

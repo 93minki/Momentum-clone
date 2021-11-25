@@ -1,0 +1,15 @@
+h1 {
+  color: white;
+}
+
+.large-screen {
+  background-color: khaki;
+}
+
+.medium-screen {
+  background-color: plum;
+}
+
+.small-screen {
+  background-color: skyblue;
+}
