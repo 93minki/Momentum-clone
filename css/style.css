@@ -1,0 +1,122 @@
+body {
+  background-size: cover;
+}
+
+input:focus {
+  outline: none;
+}
+
+#weather {
+  text-align: right;
+  color: white;
+}
+
+#clock {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#greeting,
+#todo-form,
+#todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#todo-list {
+  flex-direction: column;
+}
+
+#todo-list li {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+
+  align-items: center;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  margin-bottom: 5px;
+  margin-right: 40px;
+}
+
+#todo-list button {
+  background-color: transparent;
+  border: none;
+  /* margin-left: -180px; */
+}
+
+#todo-list span {
+  margin-right: 5px;
+}
+
+#todo-form input {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  border-bottom: 3px solid white;
+  width: 20%;
+}
+
+.hidden {
+  display: none;
+}
+#login-form {
+  text-align: center;
+}
+
+#login-form input:first-child {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+#login-form input:last-child {
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+}
+
+#quote {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+#quote span:last-child {
+  right: 0;
+}
+
+#weather {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#weather img {
+  width: 30px;
+  height: 30px;
+}
+
+#weather span {
+  font-size: 10px;
+  margin-left: 5px;
+}

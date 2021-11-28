@@ -16,8 +16,21 @@ function onLoginSubmit(info) {
   paintGreetings(username);
 }
 
+function getCurrentTime() {
+  const nowTime = document.querySelector("h2#clock");
+  const timeArr = nowTime.innerText.split(":");
+  if (timeArr[0] > 0 && timeArr[0] < 12) {
+    return "Morning";
+  } else if (timeArr[0] >= 12 && timeArr[0] < 18) {
+    return "Afternoon";
+  } else {
+    return "Night";
+  }
+}
+
 function paintGreetings(username) {
-  greeting.innerText = `Hello ${username}`;
+  const greetingTime = getCurrentTime();
+  greeting.innerText = `Good ${greetingTime} ${username}`;
   greeting.classList.remove(HIDDEN_CLASSSNAME);
 }
 
